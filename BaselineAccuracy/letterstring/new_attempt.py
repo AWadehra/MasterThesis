@@ -223,7 +223,7 @@ def evaluate_model(model, tokenizer, problems, promptstyle='hw'):
 
                 # Format problem
                 prompt += '[' + ' '.join(prob[0][0]) + '] [' + ' '.join(prob[0][1]) + ']\n[' \
-                          + ' '.join(prob[1][0]) + '] ['
+                          + ' '.join(prob[1][0]) + '] [' + ' '.join(prob[1][1][:-1])
 
                 # Get model response
                 response = generate_response(prompt, model, tokenizer)
@@ -238,7 +238,7 @@ def evaluate_model(model, tokenizer, problems, promptstyle='hw'):
                 if prob_type == 'attn':
                     correct_answer = ['a', 'a', 'a', 'a']
                 else:
-                    correct_answer = prob[1][1]
+                    correct_answer = prob[1][1][-1]
 
                 # Check correctness
                 if len(correct_answer) != len(given_answer):
@@ -286,14 +286,16 @@ def calculate_accuracy(results_df, model_name):
 
     return df
 
-def save_results(accuracy_stats, model_name, output_dir='results'):
+def save_results(accuracy_stats, model_name, subfolder_name, output_dir='results'):
     """
     Save evaluation results to files
     """
-    os.makedirs(output_dir, exist_ok=True)
+    full_path = os.path.join(output_dir, subfolder_name)
+    os.makedirs(full_path, exist_ok=True)
 
     # Save raw results
-    accuracy_stats.to_csv(os.path.join(output_dir, f'{model_name}.csv'), index=False)
+    filename = f'newtype_{model_name}.csv'
+    accuracy_stats.to_csv(os.path.join(full_path, filename), index=False)
 
     #print(f"Results saved to {output_dir}")
 

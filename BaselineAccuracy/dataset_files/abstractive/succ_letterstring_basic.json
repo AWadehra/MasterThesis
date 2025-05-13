@@ -1,0 +1,562 @@
+[
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[v w x y]",
+        "output": "[v w x z]"
+    },
+    {
+        "input": "[m n o p]",
+        "output": "[m n o q]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[v w x y]",
+        "output": "[v w x z]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[t u v w]",
+        "output": "[t u v x]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[v w x y]",
+        "output": "[v w x z]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[m n o p]",
+        "output": "[m n o q]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[m n o p]",
+        "output": "[m n o q]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[r s t u]",
+        "output": "[r s t v]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[m n o p]",
+        "output": "[m n o q]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[k l m n]",
+        "output": "[k l m o]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[t u v w]",
+        "output": "[t u v x]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[l m n o]",
+        "output": "[l m n p]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[m n o p]",
+        "output": "[m n o q]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[d e f g]",
+        "output": "[d e f h]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[c d e f]",
+        "output": "[c d e g]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[g h i j]",
+        "output": "[g h i k]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[a b c d]",
+        "output": "[a b c e]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[e f g h]",
+        "output": "[e f g i]"
+    },
+    {
+        "input": "[p q r s]",
+        "output": "[p q r t]"
+    },
+    {
+        "input": "[b c d e]",
+        "output": "[b c d f]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[o p q r]",
+        "output": "[o p q s]"
+    },
+    {
+        "input": "[q r s t]",
+        "output": "[q r s u]"
+    },
+    {
+        "input": "[u v w x]",
+        "output": "[u v w y]"
+    },
+    {
+        "input": "[n o p q]",
+        "output": "[n o p r]"
+    },
+    {
+        "input": "[h i j k]",
+        "output": "[h i j l]"
+    },
+    {
+        "input": "[i j k l]",
+        "output": "[i j k m]"
+    },
+    {
+        "input": "[j k l m]",
+        "output": "[j k l n]"
+    },
+    {
+        "input": "[f g h i]",
+        "output": "[f g h j]"
+    },
+    {
+        "input": "[s t u v]",
+        "output": "[s t u w]"
+    }
+]
