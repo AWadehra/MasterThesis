@@ -303,8 +303,9 @@ def main():
     # Load model
 
     models = {
-              'gptneo': 'EleutherAI/gpt-neo-125m',
-               'gpt2':'gpt2'}
+                'gpt2':'gpt2',
+              'gptneo': 'EleutherAI/gpt-neo-125m'
+               }
 
     for model_name, model_technical_name in models.items():
         #model_technical_name = 'gpt2'
