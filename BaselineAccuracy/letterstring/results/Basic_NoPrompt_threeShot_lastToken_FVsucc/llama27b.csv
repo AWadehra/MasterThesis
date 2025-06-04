@@ -1,0 +1,2 @@
+Accuracy,CI_low,CI_high,model_name
+0.9571428571428572,0.9096969166621,1.0,llama27b

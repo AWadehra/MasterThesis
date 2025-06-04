@@ -1,0 +1,2 @@
+Accuracy,CI_low,CI_high,model_name
+0.9714285714285714,0.9324010936443304,1.0,gptneox20b
