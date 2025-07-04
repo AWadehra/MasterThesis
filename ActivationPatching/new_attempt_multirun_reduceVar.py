@@ -69,7 +69,7 @@ def get_model_config(model: nn.Module, model_name: str) -> Dict:
 def setup_model_and_tokenizer(model_name: str, device: str = 'cuda'):
     print(f"--- Loading model and tokenizer for '{model_name}' ---")
 
-    HUGGING_FACE_TOKEN = "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"
+    HUGGING_FACE_TOKEN = "hf_findNewOne"
     model_dtype = torch.float16 if any(k in model_name.lower() for k in ['6b', '13b', '20b', '70b']) else torch.float32
 
     if 'llama' in model_name.lower():
@@ -105,7 +105,7 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
     assert model_name is not None
     print(f"--- Loading model and tokenizer for '{model_name}' ---")
 
-    HUGGING_FACE_TOKEN = "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"
+    HUGGING_FACE_TOKEN = "hf_findNewOne"
     kwargs = {'low_cpu_mem_usage': True}
     
     if 'gpt-j' in model_name.lower():

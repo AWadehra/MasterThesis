@@ -98,7 +98,7 @@ def setup_model_and_tokenizer(model_name: str, device: str = 'cuda'):
     # --- ADD HUGGING FACE TOKEN HERE FOR GATED MODELS LIKE LLAMA ---
     # Replace "YOUR_HF_TOKEN_HERE" with your actual token.
     # It can be a read-only token for security.
-    HUGGING_FACE_TOKEN = "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"
+    HUGGING_FACE_TOKEN = "hf_findNewOne"
 
     model_dtype = torch.float16 if any(k in model_name.lower() for k in ['6b', '13b', '20b', '70b']) else torch.float32
 

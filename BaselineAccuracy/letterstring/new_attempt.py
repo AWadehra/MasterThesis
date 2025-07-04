@@ -89,7 +89,7 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                 bnb_4bit_compute_dtype=torch.float16
             )
 
-            access_token = "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"
+            access_token = "hf_findNewOne"
 
             tokenizer = LlamaTokenizer.from_pretrained(model_name, token=access_token)
             model = LlamaForCausalLM.from_pretrained(
@@ -110,7 +110,7 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
             # model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
 
             # If transformers version is >= 4.31, use AutoLoaders
-            access_token = "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"
+            access_token = "hf_findNewOne"
 
             tokenizer = AutoTokenizer.from_pretrained(model_name, token=access_token)
             model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype, token=access_token).to(device)
